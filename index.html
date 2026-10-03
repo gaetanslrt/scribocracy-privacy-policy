@@ -12,24 +12,49 @@
 			font-family: "Raleway", sans-serif; 
 			color: black; 
 			background-color: white;
-			padding: 40px 50px 40px 50px;
+			padding: 50px 250px 50px 250px;
 		}
-		h3 {font-size: 20px !important}
+
+		button {
+			background-color: #4CAF50;
+			color: white;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+			display: block;
+			margin: 0 auto;
+		}
+
+		h1 {font-size: 25px !important}
+
+		h3 {font-size: 15px !important}
 
 		body, html {
   			height: 100%;
   			line-height: 1.8;
 		}
 
-		.part-title {
+		@media screen and (max-width: 650px) {
+			body {
+				padding: 20px !important;
+			}
+
+			button {
+				margin-top: 30px;
+				width: 100%;
+				padding: 15px;
+			}
 		}
 
 	</style>
 </head>
 <body>
+	<button onclick="window.location.href='/assets/apks/scribocracy-installer.apk'">Download Scribocracy</button>
+	<br><br>
 	<div>
 	<h1>Scribocracy Privacy Policy</h1>
-	<h3 class="language">English version EN</h3>
+	
 	<p>This privacy policy applies to the Scribocracy mobile application, developed by Gaetan SUILLEROT.</p>
 	<h3 class="part-title">Data collection and use</h3>
 	<p>Scribocracy is a simple offline note-taking application. We do not collect any personal data from users. All notes created are stored locally on the user's device and are not transmitted to our servers.</p>
@@ -48,27 +73,5 @@
 	<p>Effective date: <b>10 October 2024</b></p>
 </div>
 <br>
-	<div>
-		<h1>Politique de confidentialité de Scribocracy</h1>
-	<h3>Version française FR</h3>
-	<p>Cette politique de confidentialité s'applique à l'application mobile Scribocracy, développée par Gaetan SUILLEROT.</p>
-	<h3 class="part-title">Collecte et utilisation des données</h3>
-	<p>Scribocracy est une application de prise de notes simple fonctionnant hors ligne. Nous ne collectons aucune donnée personnelle des utilisateurs. Toutes les notes créées sont stockées localement sur l'appareil de l'utilisateur et ne sont pas transmises à nos serveurs.</p>
-	<h3 class="part-title">Base juridique</h3>
-	<p>Aucune donnée personnelle n'étant collectée, aucune base juridique n'est nécessaire pour le traitement des données.</p>
-	<h3 class="part-title">Partage des données</h3>
-	<p>Nous ne partageons aucune donnée avec des tiers, car nous n'en collectons pas.</p>
-	<h3 class="part-title">Droits des utilisateurs</h3>
-	<p>Étant donné que nous ne collectons ni ne traitons aucune donnée personnelle, il n'y a pas de droits spécifiques à exercer concernant vos données personnelles dans le cadre de l'utilisation de Scribocracy.</p>
-	<h3 class="part-title">Sécurité</h3>
-	<p>Toutes les notes sont stockées localement sur votre appareil. Nous vous recommandons d'utiliser les fonctionnalités de sécurité de votre appareil (comme le verrouillage par code PIN ou empreinte digitale) pour protéger vos notes.</p>
-	<h3 class="part-title">Modifications de la politique</h3>
-	<p>Nous nous réservons le droit de modifier cette politique de confidentialité à tout moment. Toute modification sera publiée dans l'application et sur le Play Store.</p>
-	<h3 class="part-title">Contact</h3>
-	<p>Pour toute question concernant cette politique de confidentialité, vous pouvez contacter l'équipe Scribocracy à l'adresse suivante : contact.scribocracy@aol.com</p>
-	<p>Date d'entrée en vigueur : <b>10 octobre 2024</b></p>
-	</div>
-	<br>
-
 </body>
 </html>
